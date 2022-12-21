@@ -1,4 +1,4 @@
-.flex-container, .main{
+.flex-container, .main, .facts{
   display: flex;
   padding: 20px;
   color: #f9faf8;
@@ -24,7 +24,6 @@
 .flex-container .one {
   flex: 3 1 0%;
 }
-
 
 .main .left{
   flex: 1;
@@ -57,6 +56,12 @@ h1 {
   font-weight: bolder;
 }
 
+h2 {
+  font-size: 24px;
+  color: #1F2937;
+  text-align: center;
+}
+
 button {
   color: white;
   background-color: #2882f6;
@@ -64,4 +69,21 @@ button {
   padding: 10px;
   border-radius: 8px;
   font-weight: bold;
+}
+
+#gp{
+  width: 200px;
+  height: 250px;
+  overflow: clip;
+  margin: 0;
+}
+
+.facts {
+  padding: 10px 20px 10px 20px;
+  justify-content: space-evenly;
+  background-color: white;
+}
+
+.facts p {
+  color: #1F2937;
 }
