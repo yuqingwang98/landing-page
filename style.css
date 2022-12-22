@@ -5,15 +5,9 @@
   background: #1F2937;
 }
 
-/* this selector selects all divs inside of .flex-container */
 .flex-container div {
   height: auto;
   flex: 1 1 0%;
-}
-
-#logo {
-  width: 80px;
-  flex: 1;
 }
 
 .links {
@@ -33,12 +27,6 @@
 
 .main .right{
   flex: 1;
-}
-
-#whale {
-  max-width: 80%;
-  object-fit: contain;
-  margin: 40px 20px 20px 80px;
 }
 
 a, p {
@@ -71,13 +59,6 @@ button {
   font-weight: bold;
 }
 
-#gp{
-  width: 200px;
-  height: 250px;
-  overflow: clip;
-  margin: 0;
-}
-
 .facts {
   padding: 10px 20px 10px 20px;
   justify-content: space-evenly;
@@ -86,4 +67,23 @@ button {
 
 .facts p {
   color: #1F2937;
+}
+
+/* images */
+#logo {
+  width: 80px;
+  flex: 1;
+}
+
+#whale {
+  max-width: 80%;
+  object-fit: contain;
+  margin: 40px 20px 20px 80px;
+}
+
+#gp{
+  width: 200px;
+  height: 250px;
+  overflow: clip;
+  margin: 0;
 }
