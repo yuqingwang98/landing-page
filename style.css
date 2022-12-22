@@ -75,6 +75,27 @@ button {
   color: #1F2937;
 }
 
+.quotes{
+  background: #e5e7eb;
+  padding: 100px 0 100px 0;
+}
+
+#quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937ba;
+  font-weight: 100;
+  line-height: 150%;
+  text-align: center;
+}
+
+#author {
+  color: #222c3be8;
+  font-size: 28px;
+  text-align: right;
+  font-weight: bold;
+}
+
 /* images */
 #logo {
   width: 80px;
