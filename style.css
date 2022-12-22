@@ -44,9 +44,15 @@ h1 {
   font-weight: bolder;
 }
 
-h2 {
+header {
   font-size: 24px;
+  color: #f9faf8;
+}
+
+#info-title {
   color: #1F2937;
+  font-size: 36px;
+  font-weight: bolder;
   text-align: center;
 }
 
