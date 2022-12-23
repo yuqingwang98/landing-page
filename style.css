@@ -97,6 +97,15 @@ button {
   font-weight: bold;
 }
 
+.sign-up p{
+  color:white;
+  text-align: left;
+  background: #2882f6;
+  margin: 200px;
+  padding: 50px;
+  border-radius: 15px;
+}
+
 /* images */
 #logo {
   width: 80px;
