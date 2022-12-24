@@ -166,7 +166,7 @@ footer {
   margin: 40px 20px 20px 80px;
 }
 
-#gp{
+.gp{
   max-height:280px;
   object-fit: cover;
   width: auto;
