@@ -92,7 +92,6 @@ button {
 
 .facts p {
   color: #1F2937;
-  font-family: monospace;
   padding-left: 10px;
 }
 
@@ -122,15 +121,30 @@ button {
   background: #2882f6;
   width: auto;
   height: auto;
-  margin: 200px;
+  margin: 100px;
   border-radius: 15px;;
   color:white;
+  flex-direction: row;
+  align-items: center;
 }
 
-.sign-up p{
+.sign-up #left{
   text-align: left;
   padding: 50px;
-  flex: 1;
+  flex: 2;
+}
+
+.sign-up #right {
+  text-align: center;
+}
+
+footer {
+  background:  #1F2937;
+  height: 80px;
+  padding-top: 5px;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
 }
 
 /* images */
@@ -146,7 +160,7 @@ button {
 }
 
 #gp{
-  max-height:250px;
+  max-height:280px;
   object-fit: cover;
   width: auto;
   height: auto;
