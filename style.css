@@ -60,10 +60,20 @@ header {
 button {
   color: white;
   background-color: #2882f6;
-  border: none;
-  padding: 10px;
   border-radius: 8px;
   font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+.main button {
+  border: none;
+}
+
+.sign-up button {
+  border: 2px solid white;
+  margin-right: 20px;
+  width: 150px;
 }
 
 .facts {
@@ -97,13 +107,20 @@ button {
   font-weight: bold;
 }
 
-.sign-up p{
-  color:white;
-  text-align: left;
+.sign-up {
+  display: flex;
   background: #2882f6;
+  width: auto;
+  height: auto;
   margin: 200px;
+  border-radius: 15px;;
+  color:white;
+}
+
+.sign-up p{
+  text-align: left;
   padding: 50px;
-  border-radius: 15px;
+  flex: 1;
 }
 
 /* images */
