@@ -1,22 +1,55 @@
-.flex-container, .main, .facts{
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+
+.head-text, .main, .facts, .sign-up {
   display: flex;
   padding: 20px;
   color: #f9faf8;
   background: #1F2937;
+  font-family: 'Roboto', sans-serif;
 }
 
-.flex-container div {
+a, p {
+  color: #f9faf8;
+  font-size: 25px;
+  padding: 0px 30px 0px 0px;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+button {
+  color: white;
+  background-color: #2882f6;
+  font-size: 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+/* header */
+
+header {
+  font-size: 20px;
+}
+
+.head-text div {
   height: auto;
   flex: 1 1 0%;
+  font-weight: bolder;
 }
 
 .links {
   margin-left: auto;
   text-align: right;
-  flex: 3;}
+  flex: 3;
+}
 
-.flex-container .one {
-  flex: 3 1 0%;
+/* hero */
+
+#hero {
+  font-size: 48px;
+  font-weight: bolder;
 }
 
 .main .left{
@@ -25,55 +58,21 @@
   margin-left: 20px;
 }
 
-.main .right{
+.main .right {
   flex: 1;
-}
-
-a, p {
-  color: #f9faf8;
-  font-size: 18px;
-  font-family: 'Roboto', sans-serif;
-  padding: 0px 30px 0px 0px;
-  text-decoration: none;
-  line-height: 25px;
-  }
-
-#hero {
-  font-size: 48px;
-  font-family: 'Roboto';
-  font-weight: bolder;
-}
-
-header {
-  font-size: 24px;
-  color: #f9faf8;
-}
-
-#info-title {
-  color: #1F2937;
-  font-size: 36px;
-  font-weight: bolder;
-  text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-button {
-  color: white;
-  background-color: #2882f6;
-  border-radius: 8px;
-  font-weight: bold;
-  text-align: center;
-  padding: 10px;
 }
 
 .main button {
   border: none;
 }
 
-.sign-up button {
-  border: 2px solid white;
-  margin-right: 20px;
-  width: 150px;
+/* info on guinea pigs*/
+
+#info-title {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: bolder;
+  text-align: center;
 }
 
 .facts {
@@ -84,16 +83,18 @@ button {
   align-items: top;
 }
 
+.facts p {
+  color: #1F2937;
+  padding-left: 10px;
+}
+
 .column {
   width: 25%;
   display: flex;
   flex-direction: column;
 }
 
-.facts p {
-  color: #1F2937;
-  padding-left: 10px;
-}
+/* quote section */
 
 .quotes{
   background: #e5e7eb;
@@ -115,6 +116,8 @@ button {
   text-align: right;
   font-weight: bold;
 }
+
+/* sign-up section */
 
 .sign-up {
   display: flex;
@@ -138,6 +141,14 @@ button {
   text-align: center;
 }
 
+.sign-up button {
+  border: 2px solid white;
+  margin-right: 20px;
+  width: 150px;
+}
+
+/* footer */
+
 footer {
   background:  #1F2937;
   height: 80px;
@@ -148,10 +159,6 @@ footer {
 }
 
 /* images */
-#logo {
-  width: 80px;
-  flex: 1;
-}
 
 #whale {
   max-width: 80%;
