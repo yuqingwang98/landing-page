@@ -25,6 +25,10 @@ button {
   text-align: center;
 }
 
+strong {
+  font-size: larger;
+}
+
 /* header */
 
 header {
