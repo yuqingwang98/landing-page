@@ -5,4 +5,5 @@ Learn more about my guinea pigs.
 
 View at https://yuqingwang98.github.io/landing-page/
 
+##Style Guide
 ![Design reference](style-guide/01.png)
