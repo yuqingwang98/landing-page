@@ -1,30 +1,28 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
-
-.head-text, .main, .facts, .sign-up {
-  display: flex;
-  padding: 20px;
-  color: #f9faf8;
+.facts, .head-text, .main, .sign-up {
   background: #1F2937;
+  color: #f9faf8;
+  display: flex;
   font-family: 'Roboto', sans-serif;
+  padding: 20px;
 }
 
 a, p {
   color: #f9faf8;
   font-size: 20px;
-  padding: 0px 30px 0px 0px;
-  text-decoration: none;
   line-height: 1.5;
+  padding-right: 30px;
+  text-decoration: none;
 }
 
 button {
-  color: white;
   background-color: #2882f6;
-  font-size: 20px;
   border-radius: 8px;
+  color: white;
+  font-size: 20px;
   font-weight: bold;
-  text-align: center;
   margin-top: 20px;
   padding: 10px;
+  text-align: center;
 }
 
 /* header */
@@ -34,20 +32,20 @@ header {
 }
 
 .head-text div {
-  height: auto;
-  flex: 1 1 0%;
+  flex: 1 1 0;
   font-weight: bolder;
+  height: auto;
 }
 
 .links {
+  flex: 3;
   margin-left: auto;
   text-align: right;
-  flex: 3;
 }
 
 /* hero */
 
-#hero {
+.hero {
   font-size: 48px;
   font-weight: bolder;
 }
@@ -68,7 +66,7 @@ header {
 
 /* info on guinea pigs*/
 
-#info-title {
+.info-title {
   color: #1F2937;
   font-size: 35px;
   font-weight: bolder;
@@ -76,11 +74,11 @@ header {
 }
 
 .facts {
+  align-items: flex-start;
   background-color: white;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: top;
 }
 
 .facts p {
@@ -89,9 +87,9 @@ header {
 }
 
 .column {
-  width: 25%;
   display: flex;
   flex-direction: column;
+  width: 25%;
 }
 
 /* quote section */
@@ -101,75 +99,73 @@ header {
   padding: 100px 20px 100px 20px;
 }
 
-#quote {
+.quote-text {
+  color: #1f2937ba;
   font-size: 36px;
   font-style: italic;
-  color: #1f2937ba;
   font-weight: 100;
   line-height: 150%;
   text-align: center;
 }
 
-#author {
+.quote-author {
   color: #222c3be8;
   font-size: 28px;
-  text-align: right;
   font-weight: bold;
+  text-align: right;
 }
 
 /* sign-up section */
 
 .sign-up {
-  display: flex;
+  align-items: center;
   background: #2882f6;
-  width: auto;
+  border-radius: 15px;
+  color:white;
+  display: flex;
+  flex-direction: row;
   height: auto;
   margin: 100px;
-  border-radius: 15px;;
-  color:white;
-  flex-direction: row;
-  align-items: center;
+  width: auto;
 }
 
-.sign-up #left{
-  text-align: left;
-  padding: 50px;
+.sign-up .left{
   flex: 2;
+  padding: 50px;
+  text-align: left;
 }
 
-.sign-up #right {
+.sign-up .right {
   text-align: center;
 }
 
 .sign-up button {
   border: 2px solid white;
   margin-right: 20px;
-  width: 150px;
 }
 
 /* footer */
 
 footer {
   background:  #1F2937;
-  height: 80px;
-  padding-top: 5px;
-  text-align: center;
   bottom: 0;
+  height: 80px;
+  text-align: center;
   width: 100%;
 }
 
 /* images */
 
-#whale {
+.whale {
+  margin: 40px 20px 20px 80px;
   max-width: 80%;
   object-fit: contain;
-  margin: 40px 20px 20px 80px;
 }
 
 .gp{
+  height: auto;
+  margin: 10px;
   max-height:280px;
   object-fit: cover;
   width: auto;
-  height: auto;
-  margin: 10px;
 }
