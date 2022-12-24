@@ -149,7 +149,7 @@ header {
 footer {
   background:  #1F2937;
   bottom: 0;
-  height: 80px;
+  padding: 10px;
   text-align: center;
   width: 100%;
 }
