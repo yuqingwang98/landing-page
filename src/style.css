@@ -3,14 +3,14 @@
   color: #f9faf8;
   display: flex;
   font-family: 'Roboto', sans-serif;
-  padding: 20px;
+  padding: 15px;
 }
 
 a, p {
   color: #f9faf8;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 1.5;
-  padding-right: 30px;
+  padding-right: 20px;
   text-decoration: none;
 }
 
@@ -18,7 +18,7 @@ button {
   background-color: #2882f6;
   border-radius: 8px;
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
   margin-top: 20px;
   padding: 10px;
@@ -50,7 +50,7 @@ header {
 /* hero */
 
 .hero {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: bolder;
 }
 
@@ -62,6 +62,7 @@ header {
 
 .main .right {
   flex: 1;
+  margin-right: 20px;
 }
 
 .main button {
@@ -74,7 +75,7 @@ header {
   color: #1F2937;
   font-size: 35px;
   font-weight: bolder;
-  padding-top: 20px;
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -106,7 +107,7 @@ header {
 
 .quote-text {
   color: #1f2937ba;
-  font-size: 36px;
+  font-size: 30px;
   font-style: italic;
   font-weight: 100;
   line-height: 150%;
@@ -162,16 +163,15 @@ footer {
 
 /* images */
 
-.whale {
+.molcar {
   margin: 40px 20px 20px 80px;
   max-width: 80%;
   object-fit: contain;
 }
 
-.gp{
-  height: auto;
+.gp {
   margin: 10px;
-  max-height:280px;
+  height:280px;
   object-fit: cover;
   width: auto;
 }
