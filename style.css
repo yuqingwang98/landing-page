@@ -80,6 +80,7 @@ header {
 }
 
 .link {
+  padding-right: none;
   text-decoration: underline;
 }
 
