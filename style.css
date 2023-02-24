@@ -1,5 +1,5 @@
 .facts, .head-text, .main, .sign-up {
-  background: #1F2937;
+  background: #b91717e3;
   color: #f9faf8;
   display: flex;
   font-family: 'Poppins', sans-serif;
@@ -87,7 +87,7 @@ header {
 /* tips section */
 
 .tips {
-  background: #e5e7eb;
+  background: #dfc3e9;
   padding: 20px;
   text-align: center;
 }
@@ -117,7 +117,7 @@ header {
 /* footer */
 
 footer {
-  background:  #1F2937;
+  background: #dc2d2d;
   bottom: 0;
   padding-top: 2px;
   padding-bottom: 2px;
