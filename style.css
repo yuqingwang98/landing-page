@@ -14,9 +14,13 @@
 a, p {
   color: #f9faf8;
   font-family: 'Poppins', sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.5;
   text-decoration: none;
+}
+
+#footer {
+  font-size: 10px;
 }
 
 strong {
@@ -80,7 +84,7 @@ header {
 .column {
   display: flex;
   flex-direction: column;
-  width: 25%;
+  /* width: 25%; */
 }
 
 .link {
@@ -121,7 +125,7 @@ header {
 /* footer */
 
 footer {
-  background: #dc2d2d;
+  background: #045d6f;
   bottom: 0;
   padding-top: 2px;
   padding-bottom: 2px;
@@ -139,7 +143,27 @@ footer {
 
 .gp {
   margin: 10px;
-  height:280px;
+  max-height:280px;
   object-fit: cover;
   width: auto;
+}
+
+@media (max-width: 500px) {
+  .facts {
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+   }
+
+   h1 {
+    font-size:large;
+   }
+
+   h2 {
+    font-size: large;
+   }
+
+   p, li {
+    font-size: small;
+   }
 }
