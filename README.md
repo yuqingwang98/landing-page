@@ -1,5 +1,17 @@
-# hobby-page
+# Hobby Page
 
-Check the page to learn more about my Guinea pigs.
+## About
+Check this [page](https://yuqingwang98.github.io/hobby-page/) to learn more about my Guinea pigs.
 
-View at https://yuqingwang98.github.io/hobby-page/
+
+## Structure
+The webpage is broken down into three sections:
+- overview
+- photo galleries
+- food recommendations
+
+Today's date is visible at the top of the page, enabled by DOM manipulation.
+
+## Skills Applied
+- Flexbox
+- JavaScript DOM Manipulation
