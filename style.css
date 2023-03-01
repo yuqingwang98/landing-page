@@ -84,7 +84,7 @@ header {
 .column {
   display: flex;
   flex-direction: column;
-  /* width: 25%; */
+  align-items: center;
 }
 
 .link {
