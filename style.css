@@ -1,5 +1,5 @@
 .facts, .head-text, .main, .sign-up {
-  background: #b91717e3;
+  background: #512a61e3;
   color: #f9faf8;
   display: flex;
   font-family: 'Poppins', sans-serif;
@@ -125,7 +125,7 @@ header {
 /* footer */
 
 footer {
-  background: #045d6f;
+  background: #96a3a5;
   bottom: 0;
   padding-top: 2px;
   padding-bottom: 2px;
