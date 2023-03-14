@@ -1,7 +1,7 @@
 # Hobby Page
 
 ## About
-Check this [page](https://yuqingwang98.github.io/hobby-page/) to learn more about my Guinea pigs.
+Check this [page](https://yuqingwwang.github.io/hobby-page/) to learn more about my Guinea pigs.
 
 
 ## Structure
